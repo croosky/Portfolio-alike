@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
     box-sizing: content-box;
     min-width: 300px;
