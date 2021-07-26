@@ -105,7 +105,7 @@ header h1{
 #about div{
     flex-basis: 50%;
     margin-top: 5px;
-    padding: 5px 15px 15px;
+    padding: 5px 10px 15px;
     max-width: 60%;
     min-width: 300px;
     min-height: 350px;
@@ -154,8 +154,6 @@ div p{
     flex-basis: 50%;
     min-width:300px;
     text-align: center;
-    margin-right: 2%;
-    margin-left: 2%;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -187,7 +185,6 @@ footer{
     display: none;
     position: fixed;
     margin:0 !important;
-    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
@@ -196,6 +193,7 @@ footer{
     background-color: rgba(0,0,0,0.4);
 }
 .window-content{
+    box-sizing: border-box;
     width: 70%;
     top: 50%;
     left: 50%;
